@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{bar}
   spec.homepage      = "https://github.com/mbigras/one"
   spec.files         = %w(exe/one
+                          README.md
                           features/cli.feature
                           features/support/env.rb
                           Gemfile
