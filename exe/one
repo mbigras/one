@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+require 'one'
+
+require 'optparse'
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: one [options]"
+  opts.on("--version") do
+    puts One::VERSION
+    exit 0
+  end
+  opts.on_tail("-h", "--help") do
+    puts opts
+    exit 0
+  end
+end.parse!
+
+puts One::Thing.new.call
