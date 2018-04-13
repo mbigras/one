@@ -1,2 +1,3 @@
-source 'https://rubygems.org'
-gem 'aruba', '~> 0.14.5'
+source "https://rubygems.org"
+
+gemspec
