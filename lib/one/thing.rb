@@ -17,7 +17,7 @@ module One
     end
 
     def foo
-      puts 'bar'
+      'bar'
     end
   end
 end
